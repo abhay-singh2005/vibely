@@ -1,0 +1,1 @@
+export default function Input({ className = '', ...props }) { return <input className={`w-full rounded-xl border border-black/10 bg-transparent p-3 text-sm outline-none focus:border-moss dark:border-white/10 ${className}`} {...props}/>; }

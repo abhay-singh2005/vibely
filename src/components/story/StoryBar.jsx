@@ -1,0 +1,1 @@
+export default function StoryBar({ stories = [] }) { return <div className="flex gap-4 overflow-x-auto">{stories.map((story) => <div className="shrink-0 text-center" key={story.username}><img className="h-12 w-12 rounded-full object-cover" src={story.avatar} alt={`${story.username} story`} /><span className="text-xs">{story.username}</span></div>)}</div>; }

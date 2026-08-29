@@ -1,0 +1,1 @@
+export default function Button({ children, className = '', ...props }) { return <button className={`rounded-xl bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 ${className}`} {...props}>{children}</button>; }

@@ -1,0 +1,1 @@
+export default function SearchResults({ results = [] }) { return <div className="space-y-2">{results.map((result) => <div className="rounded-xl p-3 text-sm" key={result.username}>{result.username}</div>)}</div>; }

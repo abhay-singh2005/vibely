@@ -1,0 +1,1 @@
+export default function PostActions() { return <div className="flex gap-4 p-4 text-sm"><button aria-label="Like">Like</button><button aria-label="Comment">Comment</button><button aria-label="Share">Share</button></div>; }

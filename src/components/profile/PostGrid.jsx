@@ -1,0 +1,1 @@
+export default function PostGrid({ posts = [] }) { return <div className="grid grid-cols-3 gap-3">{posts.map((post) => <img key={post.id} src={post.image} alt="Post" className="aspect-square w-full rounded-xl object-cover" />)}</div>; }

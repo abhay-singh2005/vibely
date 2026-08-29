@@ -1,0 +1,1 @@
+export default function PostCard({ post }) { return <article className="overflow-hidden rounded-2xl border border-black/5 bg-white dark:border-white/10 dark:bg-[#1d241f]"><img src={post.image} alt={post.caption || 'Post'} className="aspect-[4/3] w-full object-cover" /><div className="p-4 text-sm"><b>{post.user?.username}</b> {post.caption}</div></article>; }

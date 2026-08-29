@@ -1,0 +1,1 @@
+export default function ProfileHeader({ user }) { return <div className="flex items-center gap-5"><img className="h-20 w-20 rounded-full object-cover" src={user.avatar} alt={`${user.name} avatar`} /><div><h2 className="font-display text-xl font-bold">{user.username}</h2><p className="text-sm text-ink/55">{user.bio}</p></div></div>; }

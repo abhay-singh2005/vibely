@@ -1,0 +1,1 @@
+export default function Avatar({ user, size = 'md' }) { const sizes = { sm: 'h-8 w-8', md: 'h-10 w-10', lg: 'h-24 w-24' }; return <img className={`${sizes[size]} rounded-full object-cover`} src={user.avatar} alt={`${user.name} avatar`} />; }

@@ -1,0 +1,1 @@
+export default function CommentSection({ comments = [] }) { return <section className="space-y-2 p-4 text-sm">{comments.map((comment) => <p key={`${comment.user}-${comment.text}`}><b>{comment.user}</b> {comment.text}</p>)}</section>; }

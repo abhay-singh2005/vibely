@@ -1,0 +1,1 @@
+export default function Modal({ open, onClose, children }) { if (!open) return null; return <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" onClick={onClose}><div onClick={(event) => event.stopPropagation()} className="w-full max-w-lg rounded-2xl bg-white p-6 shadow-soft dark:bg-[#1d241f]">{children}</div></div>; }

@@ -1,0 +1,1 @@
+export default function EmptyState({ title = 'Nothing here yet', text = 'Check back soon.' }) { return <div className="rounded-2xl border border-dashed border-black/10 p-12 text-center dark:border-white/10"><p className="font-semibold">{title}</p><p className="mt-1 text-sm text-ink/45 dark:text-white/45">{text}</p></div>; }

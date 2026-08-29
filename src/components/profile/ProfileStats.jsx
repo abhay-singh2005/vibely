@@ -1,0 +1,1 @@
+export default function ProfileStats({ posts = 0, followers = 0, following = 0 }) { return <div className="flex gap-5 text-sm"><span><b>{posts}</b> posts</span><span><b>{followers}</b> followers</span><span><b>{following}</b> following</span></div>; }

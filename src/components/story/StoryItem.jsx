@@ -1,0 +1,1 @@
+export default function StoryItem({ story, onClick }) { return <button onClick={onClick} className="text-center"><img className="mx-auto h-12 w-12 rounded-full object-cover" src={story.avatar} alt={`${story.username} story`} /><span className="text-xs">{story.username}</span></button>; }

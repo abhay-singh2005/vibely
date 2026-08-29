@@ -1,0 +1,1 @@
+export default function StoryViewer({ story, onClose }) { if (!story) return null; return <div className="fixed inset-0 z-50 grid place-items-center bg-black/80 p-4"><button onClick={onClose} className="absolute right-5 top-5 text-white" aria-label="Close">Close</button><img className="max-h-[90vh] max-w-full rounded-2xl object-contain" src={story.image} alt="Story"/></div>; }

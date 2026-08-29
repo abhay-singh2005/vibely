@@ -1,0 +1,1 @@
+export default function PostHeader({ username, time }) { return <header className="flex items-center justify-between p-4"><b className="text-sm">{username}</b><span className="text-xs text-ink/45">{time}</span></header>; }

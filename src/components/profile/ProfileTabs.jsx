@@ -1,0 +1,1 @@
+export default function ProfileTabs({ active = 'Posts' }) { return <div className="flex gap-6 border-b border-black/10 py-4 text-sm dark:border-white/10">{['Posts', 'Saved', 'Tagged'].map((tab) => <button className={active === tab ? 'font-bold text-moss' : 'text-ink/50'} key={tab}>{tab}</button>)}</div>; }
